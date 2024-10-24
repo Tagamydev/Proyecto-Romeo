@@ -21,6 +21,14 @@ public class Player : MonoBehaviour
 	    
 	    Vector3 movement = new Vector3(moveX, 0f, moveY)*moveSpeed* Time.deltaTime  ;
 	    transform.Translate(movement);
-        
+
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Debug.Log("FIRE!");
+            if (object_usable)
+            {
+                object_usable.GetComponent<Interactable>().Interaction();
+            }
+        }
     }
 }
