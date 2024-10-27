@@ -24,13 +24,13 @@ public abstract class Interactable : MonoBehaviour
     {
         Debug.Log("Entrando en trigger con: " + other.gameObject.name);
         player = other.gameObject;
-        player.GetComponent<Player>().object_usable = gameObject;
+        player.GetComponent<PlayerController>().object_usable = gameObject;
     }
 
     void OnTriggerExit(Collider other)
     {
         Debug.Log("Saliste del trigger con: " + other.gameObject.name);
-        player.GetComponent<Player>().object_usable = null;
+        player.GetComponent<PlayerController>().object_usable = null;
         player = null;
     }
 }
