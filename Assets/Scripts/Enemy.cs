@@ -7,11 +7,13 @@ public abstract class Enemy : MonoBehaviour
 {
 	// Array publico de game object
 	public GameObject[] path;
+    public int i = -1;
 
     private PlayerController playerController;
 
     void Start()
     {
+        Debug.Log("PAth:" + path.Length);
         // Busca el objeto PlayerController en la escena
         playerController = FindObjectOfType<PlayerController>();
 
@@ -27,18 +29,29 @@ public abstract class Enemy : MonoBehaviour
         }
     }
 
+    public abstract bool CheckMove();
+
     // Función común a todos los enemigos
     public virtual void Die()
 	{
 		// sonido?
 		Debug.Log("El enemigo ha muerto");
-		Destroy(gameObject);
+        playerController.OnMoveEnemies -= Move;
+        Destroy(gameObject);
 	}
 	
-	// Método abstracto para el movimiento específico
-	public abstract void Move();
-
-	// Método abstracto para el movimiento específico
-	public abstract void CheckMove();
-
+	public virtual void Move()
+    {
+        if (CheckMove())
+        {
+            Debug.Log("Jugador fijado!");
+        }
+        else
+        {
+            i++;
+            int pos = i % path.Length;
+            Debug.Log("Indice: " + i + ", Longitud: " + path.Length + ", Posicion: " + pos);
+            transform.position = path[pos].transform.position;
+        }
+    }
 }
