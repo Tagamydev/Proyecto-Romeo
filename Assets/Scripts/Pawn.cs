@@ -1,7 +1,12 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+
 
 public class Pawn : Enemy
 {
+	public float speed;
+
 	public override void Move()
 	{
 		// Lógica específica de movimiento de un peón
