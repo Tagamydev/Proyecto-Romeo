@@ -8,8 +8,27 @@ public abstract class Enemy : MonoBehaviour
 	// Array publico de game object
 	public GameObject[] path;
 
-	// Función común a todos los enemigos
-	public virtual void Die()
+    private PlayerController playerController;
+
+    void Start()
+    {
+        // Busca el objeto PlayerController en la escena
+        playerController = FindObjectOfType<PlayerController>();
+
+        // Asegúrate de que se encontró el PlayerController
+        if (playerController != null)
+        {
+            // Suscribirse al evento OnMoveEnemies
+            playerController.OnMoveEnemies += Move; // Suscribe el método Move al evento
+        }
+        else
+        {
+            Debug.LogWarning("No se encontró PlayerController en la escena.");
+        }
+    }
+
+    // Función común a todos los enemigos
+    public virtual void Die()
 	{
 		// sonido?
 		Debug.Log("El enemigo ha muerto");

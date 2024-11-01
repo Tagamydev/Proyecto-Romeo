@@ -14,4 +14,10 @@ public class Rook : Enemy
 		// Lógica para convertir el enroque con el rey si al final lo hacemos
 		Debug.Log("Movimiento para el enroque");
 	}
+
+    public override void CheckMove()
+    {
+        // Lógica específica de movimiento en forma de "L" como en ajedrez
+        Debug.Log("Comprobacion");
+    }
 }
