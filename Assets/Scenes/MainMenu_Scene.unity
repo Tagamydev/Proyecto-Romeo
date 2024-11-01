@@ -181,8 +181,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: START
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 36813a07e6dcbde4e96b2a4952152f92, type: 2}
+  m_sharedMaterial: {fileID: 3993632927582413728, guid: 36813a07e6dcbde4e96b2a4952152f92, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -600,8 +600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ee4e7102c64e0c48b332e1c397880bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: {fileID: 0}
-  scene_name: Scene_WinScreen_0.scn
+  scene_name: Dialogue_00_Scene
 --- !u!1 &1604736401
 GameObject:
   m_ObjectHideFlags: 0
@@ -896,8 +895,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: ROYAL GAME
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 36813a07e6dcbde4e96b2a4952152f92, type: 2}
+  m_sharedMaterial: {fileID: 3993632927582413728, guid: 36813a07e6dcbde4e96b2a4952152f92, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
