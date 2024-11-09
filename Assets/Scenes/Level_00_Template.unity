@@ -134,7 +134,6 @@ GameObject:
   - component: {fileID: 43320530}
   - component: {fileID: 43320529}
   - component: {fileID: 43320528}
-  - component: {fileID: 43320532}
   m_Layer: 0
   m_Name: EastWall
   m_TagString: Untagged
@@ -228,19 +227,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &43320532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 43320527}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 647fbe2bde70ecd44a643fc0b5469532, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textureScale: {x: 1, y: 1}
 --- !u!1 &81112825
 GameObject:
   m_ObjectHideFlags: 0
@@ -510,7 +496,6 @@ GameObject:
   - component: {fileID: 658665180}
   - component: {fileID: 658665179}
   - component: {fileID: 658665178}
-  - component: {fileID: 658665182}
   m_Layer: 0
   m_Name: WestWall
   m_TagString: Untagged
@@ -604,19 +589,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &658665182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 658665177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 647fbe2bde70ecd44a643fc0b5469532, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textureScale: {x: 1, y: 1}
 --- !u!1 &1038622406
 GameObject:
   m_ObjectHideFlags: 0
@@ -851,7 +823,6 @@ GameObject:
   - component: {fileID: 2100614942}
   - component: {fileID: 2100614941}
   - component: {fileID: 2100614940}
-  - component: {fileID: 2100614944}
   m_Layer: 0
   m_Name: NorthWall
   m_TagString: Untagged
@@ -945,19 +916,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2100614944
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2100614939}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 647fbe2bde70ecd44a643fc0b5469532, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textureScale: {x: 1, y: 1}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
