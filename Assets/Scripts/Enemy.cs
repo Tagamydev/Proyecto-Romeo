@@ -7,7 +7,7 @@ public abstract class Enemy : MonoBehaviour
     // Array público de GameObject que representa el camino del enemigo
     public GameObject[] path;
     public int i = -1;
-    private PlayerController playerController;
+    public PlayerController playerController;
     public float moveDuration = 1f;  // Duración del movimiento entre puntos en segundos
     private bool isMoving = false;   // Bandera para verificar si el enemigo está en movimiento
 
