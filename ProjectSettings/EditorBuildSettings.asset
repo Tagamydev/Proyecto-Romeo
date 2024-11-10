@@ -6,19 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainMenu_Scene.unity
+    path: Assets/Scenes/Screens/MainMenu_Scene.unity
     guid: aa5b29a7cfa4b3541b0606d0cf62447e
   - enabled: 1
-    path: Assets/Scenes/Dialogue_00_Scene.unity
-    guid: c8ec831fa6bd1fc4bbca08e71779def2
+    path: Assets/Scenes/Level_00_secondTry.unity
+    guid: b63274389e83a0a46a8fe6bbab8f0dd0
   - enabled: 1
-    path: Assets/Scenes/Level_00_Scene.unity
-    guid: 06bef526891d68186b29c6923e2cec44
-  - enabled: 1
-    path: Assets/Scenes/WinScreen_Scene.unity
+    path: Assets/Scenes/Screens/WinScreen_Scene.unity
     guid: fca79518c355e70448ffa4c4b80e0949
   - enabled: 1
-    path: Assets/Scenes/DeathScreen_Scene.scn.unity
+    path: Assets/Scenes/Screens/DeathScreen_Scene.unity
     guid: 0caa53fa478ef9e42a985d6d275cfef5
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: d5b2b7eca962ad5659157f170f5c72cf, type: 2}
