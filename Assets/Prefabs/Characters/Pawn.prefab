@@ -63,7 +63,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: -531934429052397334, guid: 3f501479883e2404c85523eb17cbd471, type: 3}
-  - {fileID: -876546973899608171, guid: 3f501479883e2404c85523eb17cbd471, type: 3}
+  - {fileID: 2100000, guid: 26d635df65cb393c3afb28951a73c4e4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -99,3 +99,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   path: []
   i: -1
+  playerController: {fileID: 0}
+  moveDuration: 1
