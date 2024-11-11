@@ -57,6 +57,11 @@ public class PlayerController : MonoBehaviour
         SceneManager.LoadScene("DeathScreen_Scene");
     }
 
+    public void Win()
+    {
+        SceneManager.LoadScene("WinScreen_Scene");
+    }
+
     private IEnumerator MoveToTarget(Vector3 targetPosition, float duration)
     {
         isMoving = true;  // Marca que el objeto está en movimiento
